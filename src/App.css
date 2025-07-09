@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-logo1: "Poppins", "sans-serif"; 
+  --font-logo2: "Jomhuria", "serif"; 
+}
