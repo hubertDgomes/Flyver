@@ -85,6 +85,7 @@ const Offer = () => {
       /> 
       </div>
     </Slider>
+    <p className="mt-[40px] w-[150px] text-center m-auto py-[10px] px-[20px] text-[14px] font-semibold font-logo1 text-[#50A1FF] border-[#50A1FF] border-[3px] cursor-pointer">View All Deals</p>
     </Container>
   );
 };

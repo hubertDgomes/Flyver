@@ -6,7 +6,7 @@ import Flex from "../../Flex";
 const OfferPack = ({offerCap,placeName,offerPhoto,regPrice,offerPrice}) => {
   return (
     <>
-      <div className="w-[316px] cursor-pointer">
+      <div className="w-[316px] cursor-pointer shadow-lg">
         <Images src={offerPhoto}/>
         <p className="font-logo1 font-medium text-[18px] mt-[20px]">{offerCap}</p>
         <Flex className={"mt-[10px] mb-[8px]"}>
