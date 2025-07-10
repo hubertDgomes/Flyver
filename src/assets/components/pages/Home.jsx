@@ -5,6 +5,7 @@ import Country from '../Country'
 import StoryCountry from '../layouts/StoryCountry'
 import Feature from '../Feature'
 import Experience from '../layouts/Experience'
+import Offer from '../layouts/Offer'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Banner/>
       <StoryCountry/>
       <Experience/>
+      <Offer/>
     </div>
   )
 }
