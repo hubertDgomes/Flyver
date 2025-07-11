@@ -10,6 +10,7 @@ import TipsPart from '../layouts/TipsPart'
 import Review from '../layouts/Review'
 import ComBanner from '../layouts/ComBanner'
 import Limit from '../layouts/Limit'
+import Footer from '../layouts/Footer'
 
 const Home = () => {
   return (
@@ -23,6 +24,7 @@ const Home = () => {
       <Review/>
       <ComBanner/>
       <Limit/>
+      <Footer/>
     </div>
   )
 }
