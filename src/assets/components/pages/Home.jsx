@@ -6,6 +6,8 @@ import StoryCountry from '../layouts/StoryCountry'
 import Feature from '../Feature'
 import Experience from '../layouts/Experience'
 import Offer from '../layouts/Offer'
+import TipsPart from '../layouts/TipsPart'
+import Review from '../layouts/Review'
 
 const Home = () => {
   return (
@@ -15,6 +17,8 @@ const Home = () => {
       <StoryCountry/>
       <Experience/>
       <Offer/>
+      <TipsPart/>
+      <Review/>
     </div>
   )
 }
