@@ -8,6 +8,8 @@ import Experience from '../layouts/Experience'
 import Offer from '../layouts/Offer'
 import TipsPart from '../layouts/TipsPart'
 import Review from '../layouts/Review'
+import ComBanner from '../layouts/ComBanner'
+import Limit from '../layouts/Limit'
 
 const Home = () => {
   return (
@@ -19,6 +21,8 @@ const Home = () => {
       <Offer/>
       <TipsPart/>
       <Review/>
+      <ComBanner/>
+      <Limit/>
     </div>
   )
 }
